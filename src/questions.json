@@ -1,0 +1,152 @@
+[
+    {
+      "question": "Which HTML element is used to create a hyperlink?",
+      "options": ["<link>", "<a>", "<href>", "<web>"],
+      "answer": "<a>"
+    },
+    {
+      "question": "ReactJS is  a javascript library?",
+      "options": ["true", "false"],
+      "answer": "true"
+    },
+  
+    {
+      "question": "In web development, what does CSS stand for?",
+      "options": [
+        "Cascading Style Sheets",
+        "Centralized Style System",
+        "Code Style Selector",
+        "Computer Style Script"
+      ],
+      "answer": "Cascading Style Sheets"
+    },
+  
+    {
+      "question": "Which programming language is commonly used for adding interactivity to web pages?",
+      "options": ["HTML", "CSS", "JavaScript", "ReactJS"],
+      "answer": "JavaScript"
+    },
+  
+    {
+      "question": "What does HTML stand for in the context of web development?",
+      "options": [
+        "Hyper Text Markup Language",
+        "Highly Technical Meta Language",
+        "Hyperlink Text Management Language",
+        "Hypertext Terminal Markup Language"
+      ],
+      "answer": "Hyper Text Markup Language"
+    },
+    {
+      "question": "What is the purpose of the HTML <head> element in a web page?",
+      "options": [
+        "To define the main content of the page",
+        "To contain metadata about the page",
+        "To display a header at the top of the page",
+        "To define a hyperlink"
+      ],
+      "answer": "To contain metadata about the page"
+    },
+    {
+      "question": "In CSS, how can you select all the <p> elements on a web page?",
+      "options": ["#paragraph { }", ".paragraph { }", "<p> { }", "p { }"],
+      "answer": "p { }"
+    },
+    {
+      "question": "What does the CSS property 'font-size' control?",
+      "options": ["Background color", "Text color", "Font style", "Font size"],
+      "answer": "Font size"
+    },
+  
+    {
+      "question": "Which of the following is a JavaScript framework for building user interfaces?",
+      "options": ["HTML", "CSS", "JavaScript", "ReactJS"],
+      "answer": "ReactJS"
+    },
+    {
+      "question": "What is the purpose of the 'render' method in ReactJS?",
+      "options": [
+        "To define the main content of a component",
+        "To create a hyperlink",
+        "To apply styles to a component",
+        "To add a background color to a component"
+      ],
+      "answer": "To define the main content of a component"
+    },
+    {
+      "question": "What is the JavaScript function used to add or modify HTML content on a web page?",
+      "options": ["addElement", "modifyHTML", "changeContent", "innerHTML"],
+      "answer": "innerHTML"
+    },
+    {
+      "question": "Which HTML element is used to define the structure of an ordered list?",
+      "options": ["<ul>", "<li>", "<ol>", "<dl>"],
+      "answer": "<ol>"
+    },
+    {
+      "question": "What is the primary purpose of the HTML <div> element?",
+      "options": [
+        "To define a hyperlink",
+        "To create an image",
+        "To group and style content",
+        "To display text"
+      ],
+      "answer": "To group and style content"
+    },
+    {
+      "question": "In CSS, what does the 'margin' property control?",
+      "options": [
+        "Text alignment",
+        "Element visibility",
+        "Spacing around an element",
+        "Font size"
+      ],
+      "answer": "Spacing around an element"
+    },
+    {
+      "question": "Which CSS property is used to change the color of text in an element?",
+      "options": ["background-color", "color", "font-color", "text-color"],
+      "answer": "color"
+    },
+    {
+      "question": "What is the purpose of the 'state' in ReactJS components?",
+      "options": [
+        "To store data that can change over time",
+        "To define the initial styling of a component",
+        "To create hyperlinks",
+        "To display images"
+      ],
+      "answer": "To store data that can change over time"
+    },
+    {
+      "question": "Which JavaScript keyword is used to declare a variable that cannot be reassigned?",
+      "options": ["let", "const", "var", "assign"],
+      "answer": "const"
+    },
+    {
+      "question": "What does the CSS property 'border-radius' control?",
+      "options": [
+        "Border color",
+        "Border width",
+        "Border shape",
+        "Background color"
+      ],
+      "answer": "Border shape"
+    },
+    {
+      "question": "In web development, what does HTML5 introduce as a new structure element to define the navigation menus?",
+      "options": ["<menu>", "<nav>", "<navbar>", "<navigation>"],
+      "answer": "<nav>"
+    },
+    {
+      "question": "What is the purpose of the 'onClick' event handler in ReactJS?",
+      "options": [
+        "To define the main content of a component",
+        "To handle a click event on an element",
+        "To apply styles to a component",
+        "To change the background color of a component"
+      ],
+      "answer": "To handle a click event on an element"
+    }
+  ]
+  

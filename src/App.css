@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  display: flex;
+  padding: 20px 10px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #bfbfbf;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-heading {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 600;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.score-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.score-heading {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+}
+.score {
+  font-family: Roboto;
+  font-size: 30px;
+  margin-left: 4px;
+  color: red;
+}
+.timer {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+@media screen and (min-width: 768px) {
+  .timer {
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+  }
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.end-practice-button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 600;
+  color: #5272f2;
+}
+.time {
+  font-family: Roboto;
+  margin-bottom: 6px;
+  margin-right: 30px;
+}
+@media screen and (min-width: 768px) {
+  .time {
+    margin-bottom: 0;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.result {
+  border: 1px solid #bfbfbf;
+  width: 95%;
+  margin: 10px auto;
+  border-radius: 8px;
+  max-width: 500px;
+  padding: 40px;
+  text-align: center;
+}
+.result-score {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 600;
+}
+.date-time-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #bfbfbf;
+}
+.correct {
+  font-family: Roboto;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.answer-count {
+  margin-right: 20px;
+}
+.answer-count::after {
+  content: ":";
+}
+.icon {
+  margin-left: 10px;
+  padding-top: 4px;
+}
+.date-time {
+  font-family: Roboto;
+  font-size: 14px;
 }

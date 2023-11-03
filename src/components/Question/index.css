@@ -1,0 +1,110 @@
+.question-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 15px;
+  }
+  @media screen and (min-width: 768px) {
+    .question-container {
+      box-shadow: 0 1px 1px 1px#bfbfbf;
+      padding: 35px;
+    }
+  }
+  .question {
+    font-family: Roboto;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bfbfbf;
+    margin-bottom: 20px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  label {
+    font-family: Roboto;
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  @media screen and (min-width: 768px) {
+    .question {
+      font-size: 23px;
+    }
+    label {
+      font-size: 16;
+    }
+  }
+  .answer-input {
+    margin: 10px 10px 10px 0;
+  }
+  .error-msg {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: Roboto;
+    font-size: 12px;
+    color: rgb(231, 118, 118);
+  }
+  
+  .button-container {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .button {
+    outline: none;
+    cursor: pointer;
+    width: 120px;
+    padding: 6px 10px;
+    background: transparent;
+    font-family: Roboto;
+    color: #5272f2;
+    margin-top: 45px;
+    border: 1px solid #5272f2;
+    border-radius: 4px;
+  }
+  .submit {
+    background-color: #5272f2;
+    color: #fff;
+  
+    margin-left: 30px;
+  }
+  .dispay-answer {
+    text-align: center;
+    margin: 80px;
+  }
+  .show-answer {
+    box-sizing: content-box;
+    text-align: center;
+    max-width: 200px;
+    font-family: Roboto;
+    font-size: 18px;
+    color: rgb(104, 193, 209);
+    font-weight: 900;
+    border: 1px solid #bfbffb;
+    border-radius: 4px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    .show-answer {
+      padding: 40px 60px;
+      font-size: 20px;
+    }
+  }
+  .next {
+    width: 150px;
+    margin: 0;
+    margin: 0 auto;
+  }
+  .buttons {
+    text-align: center;
+  }
+  .correct-option {
+    color: rgb(74, 72, 211);
+  }
+  
